@@ -24,7 +24,7 @@ The reason to use node.js is that adds support for modules and lets you run Java
 # A quick introduction to JavaScript
 
 ## Quick start
-I said earlier that JavaScript is the most ubiquitous programming language.  In fact, if you are reading this in a web browser you can start coding in JS right now and follow along with this tutorial.  To do this in Google Chrome just press Control+Shift+J  (or Command+Shift+J on a Mac) to open up Chrome's developer tools.  On Firefox you can do this using Control+Option+K.
+I said earlier that JavaScript is the most ubiquitous programming language.  In fact, if you are reading this in a web browser you can start coding in JS right now and follow along with this tutorial.  To do this in Google Chrome just press Control+Shift+J  (or Command+Option+J on a Mac) to open up Chrome's developer tools.  On Firefox you can do this using Control+Option+K.
 
 Once open, click on the "Console" tab and you will get an interactive command prompt that looks like this:
 
