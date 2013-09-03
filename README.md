@@ -73,6 +73,35 @@ for(var i=0; i<10; ++i) {
 }
 ```
 
+### Advanced:  The one place where you need a semicolon
+There is one place where semicolons are required in JavaScript:  before an expression statement.  Consider the following example:
+
+```javascript
+var x = { foo: 1 }
+
+(function() {
+  console.log("executing a function immediately!")
+})()
+```
+
+You might think this code declares a variable x, makes an anonymous function and executes it.  However, instead what will happen is that it will be converted into this code:
+
+```javascript
+var x = { foo: 1 }(function() {
+  console.log("executing a function immediately!")
+})()
+```
+
+Which will try to invoke the object `{foo: 1}` as a function.  To avoid this situation, always put a semicolon **before** any expression statement.  Here is a correct example:
+
+```javascript
+var x = { foo: 1 }
+
+;(function() {
+  console.log("executing a function immediately!")
+})()
+```
+
 ## Types in JavaScript
 Coming from a C++/Java background the weirdest thing about JavaScript is its dynamic typing system.  This means that the types of variables are determined at run time.  For example, to declare a variable `a` and initialize it with an integer value of `1` we can write in JavaScript:
 
