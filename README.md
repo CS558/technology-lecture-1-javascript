@@ -242,7 +242,7 @@ Will print out,
 2
 ```
 
-Just like object references in Java an pointers in C, object references in JavaScript are nullable.  To create a null object reference, you can use the keyword `null`:
+Just like object references in Java and pointers in C, object references in JavaScript are nullable.  To create a null object reference, you can use the keyword `null`:
 
 ```javascript
 var nullref = null
