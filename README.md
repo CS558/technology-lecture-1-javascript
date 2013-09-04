@@ -109,7 +109,7 @@ Coming from a C++/Java background the weirdest thing about JavaScript is its dyn
 var a = 1
 ```
 
-This is unlike C++ or Java, where we don't need to declare the type of a variable when we define.  Instead the JavaScript run time tracks the type of `a` as the program executes.  In JavaScript, the type of a variable is always one of the following basic types:
+Unlike C++ or Java, we don't need to declare the type of a variable when we define it.  Instead the JavaScript run time tracks the type of `a` as the program executes.  In JavaScript, the type of a variable is always one of the following basic types:
 
 * Numbers: Which are represented as 64-bit double precision floats internally.  Example: `1.0`
 * Strings: That are arrays of characters, just like in Java.  Example: `"hello world"`
