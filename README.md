@@ -327,7 +327,7 @@ The following references are helpful in learning more about JavaScript and in so
 * [Mozilla Developer's Network](https://developer.mozilla.org/en-US/) A collection of community written reference articles maintained by Mozilla.
 * [Stack Overflow](http://stackoverflow.com/) A free question & answer site with pretty good moderation.
 
-There is also a sequence of exercises at codeacademy that can help you get a better handle on the basics, though it is a bit more focused on beginners.  If you are looking for some extra practice it might not be bad to give it a shot working through some of the exerceise:
+There is also a sequence of exercises at codeacademy that can help you get a better handle on the basics, though it is a bit more focused on beginners.  If you are looking for some extra practice it might not be bad to give it a shot working through some of the exercises:
 
 * [CodeAcademy JavaScript](http://www.codecademy.com/tracks/javascript)
 
