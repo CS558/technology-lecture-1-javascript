@@ -309,6 +309,11 @@ The above material pretty much covers all the basics of JavaScript.  The fact th
 ### prototypes
 JavaScript does not support a classical inheritance model, but for performance reasons it does allow for the use of object templates or prototypes.  You should read about prototypes on your own to understand how this works and be able to explain when and why you might use a prototype to instantiate an object.
 
+### Implicit `this` reference
+When you invoke a function or call a method of an object, there is an implicit reference to the object which was called passed in the `this` property.  If no `this` property is specified, `this` defaults to the global environment unless the function was called as a constructor using the `new` keyword.  For more examples of how `this` works, see the following MDN article:
+
+* [`this` MDN reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
+
 ### Exceptions
 JavaScript supports exceptions, just like Java.  There is also a built in object type called "Error" which tracks the line number at which it was first constructed.  This is useful for creating stack traces if your program performas an illegal operation at some point.
 
